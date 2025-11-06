@@ -1,5 +1,3 @@
-vim.cmd("let g:netrw_liststyle = 3")
-
 local opt = vim.opt
 
 opt.relativenumber = true
@@ -10,6 +8,7 @@ opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
+opt.numberwidth = 4
 
 opt.wrap = false
 
@@ -38,8 +37,8 @@ opt.splitbelow = true -- split horizontal window to the bottom
 -- turn off swapfile
 opt.swapfile = false
 
-opt.linespace = 14
+opt.winborder = "single"
+opt.guifont = "monospace:h17"
 
-opt.winborder = 'rounded'
-
-
+-- Diagnosics inline
+vim.diagnostic.config({ virtual_text = true })

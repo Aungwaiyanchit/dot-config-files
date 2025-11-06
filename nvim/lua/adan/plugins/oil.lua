@@ -3,14 +3,17 @@ local M = {
 	enabled = true,
 	dependencies = {
 		{
-			"echasnovski/mini.icons",
+			"nvim-mini/mini.icons",
 			opts = {},
 			config = function()
 				require("mini.icons").setup()
 			end,
 		},
-		{ "SirZenith/oil-vcs-status" },
+		{
+			"refractalize/oil-git-status.nvim",
+		},
 	},
+
 	keys = {
 		{ "-", "<cmd>Oil<cr>", desc = "Oil" },
 	},
@@ -20,7 +23,7 @@ function M.config()
 	require("oil").setup({
 		default_file_explorer = true,
 		win_options = {
-			signcolumn = "no",
+			signcolumn = "yes:1",
 		},
 		keymaps = {
 			["g?"] = "actions.show_help",
@@ -45,38 +48,40 @@ function M.config()
 		},
 		view_options = {
 			show_hidden = true,
+			natural_order = true,
+			is_always_hidden = function(name, _)
+				return name == ".." or name == ".git"
+			end,
 		},
 	})
 
-	local status_const = require("oil-vcs-status.constant.status")
-
-	local StatusType = status_const.StatusType
-
-	require("oil-vcs-status").setup({
-		status_symbol = {
-			[StatusType.Added] = "",
-			[StatusType.Copied] = "󰆏",
-			[StatusType.Deleted] = "",
-			[StatusType.Ignored] = "",
-			[StatusType.Modified] = "",
-			[StatusType.Renamed] = "",
-			[StatusType.TypeChanged] = "󰉺",
-			[StatusType.Unmodified] = " ",
-			[StatusType.Unmerged] = "",
-			[StatusType.Untracked] = "",
-			[StatusType.External] = "",
-
-			[StatusType.UpstreamAdded] = "󰈞",
-			[StatusType.UpstreamCopied] = "󰈢",
-			[StatusType.UpstreamDeleted] = "",
-			[StatusType.UpstreamIgnored] = " ",
-			[StatusType.UpstreamModified] = "󰏫",
-			[StatusType.UpstreamRenamed] = "",
-			[StatusType.UpstreamTypeChanged] = "󱧶",
-			[StatusType.UpstreamUnmodified] = " ",
-			[StatusType.UpstreamUnmerged] = "",
-			[StatusType.UpstreamUntracked] = " ",
-			[StatusType.UpstreamExternal] = "",
+	require("oil-git-status").setup({
+		show_ignored = true, -- show files that match gitignore with !!
+		symbols = { -- customize the symbols that appear in the git status columns
+			index = {
+				["!"] = "!",
+				["?"] = "?",
+				["A"] = "",
+				["C"] = "󰆏",
+				["D"] = "",
+				["M"] = "",
+				["R"] = "",
+				["T"] = "󰉺",
+				["U"] = "",
+				[" "] = " ",
+			},
+			working_tree = {
+				["!"] = "!",
+				["?"] = "?",
+				["A"] = "",
+				["C"] = "󰆏",
+				["D"] = "",
+				["M"] = "",
+				["R"] = "",
+				["T"] = "󰉺",
+				["U"] = "",
+				[" "] = " ",
+			},
 		},
 	})
 end

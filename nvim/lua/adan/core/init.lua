@@ -1,2 +1,2 @@
-require("adan.core.keysmap")
 require("adan.core.options")
+require("adan.core.keysmap")
