@@ -17,14 +17,13 @@ After experimenting and researching more modern terminals, I’ve now switched t
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) 
 - [tiny-inline-diagnositc](https://github.com/rachartier/tiny-inline-diagnostic.nvim) - display a beautiful diagnostic messages
 - Colorschemas 
-    - [tokyonight]('https://github.com/folke/tokyonight.nvim')
+    - [tokyonight](https://github.com/folke/tokyonight.nvim)
     - [catppuccin](https://github.com/catppuccin/nvim)
 - Theme Switcher 
-    I use a custom helper for switching themes easily:
-    - `nvim/lua/utils/theme-switcher.lua`
+    - I use a custom helper for switching themes easily: `nvim/lua/utils/theme-switcher.lua`
 
 ## Window Manager
-- [Aerospace](https://github.com/nikitabobko/AeroSpace)
+- [Aerospace](https://github.com/nikitabobko/AeroSpace) - tiling window manager for Macos
 
 ## References & Inspiration
 - Parts of this setup were inspired by the open-source community. Special thanks to:
