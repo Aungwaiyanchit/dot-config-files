@@ -23,13 +23,11 @@ return {
 					lua = { "stylua" },
 					python = { "black" },
 					ruby = { "rubocop" },
-					eruby = { "erb_format" },
+
+					-- PHP/Laravel
+					php = { "pint", "php_cs_fixer" },
+					blade = { "blade-formatter" },
 				},
-				-- format_on_save = {
-				-- 	lsp_fallback = true,
-				-- 	async = false,
-				-- 	timeout_ms = 1000,
-				-- },
 			})
 
 			vim.keymap.set({ "n", "v" }, "<leader>mp", function()

@@ -1,3 +1,8 @@
+vim.o.winborder = 'rounded'
+vim.o.shellslash = true
+
+vim.g.snacks_animate = true
+
 local opt = vim.opt
 
 opt.relativenumber = true
@@ -8,7 +13,6 @@ opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
-opt.numberwidth = 4
 
 opt.wrap = false
 
@@ -19,9 +23,6 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 opt.cursorline = true
 
 -- turn on termguicolors for tokyonight colorscheme to work
--- (have to use iterm2 or any other true color terminal)
-opt.termguicolors = true
-opt.background = "dark" -- colorschemes that can be light or dark will be made dark
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 
 -- backspace
@@ -37,8 +38,7 @@ opt.splitbelow = true -- split horizontal window to the bottom
 -- turn off swapfile
 opt.swapfile = false
 
-opt.winborder = "single"
-opt.guifont = "monospace:h17"
+opt.smoothscroll = true
+opt.linebreak = true
 
--- Diagnosics inline
-vim.diagnostic.config({ virtual_text = true })
+

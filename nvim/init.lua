@@ -1,4 +1,4 @@
-require("adan.core")
-require("adan.lazy")
-require("adan.lsp")
-
+require("config")
+require("core.lazy")
+require("core.lsp")
+require("utils.theme-switcher")

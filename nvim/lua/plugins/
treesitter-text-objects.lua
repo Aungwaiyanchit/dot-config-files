@@ -22,11 +22,11 @@ return {
 						["l:"] = { query = "@property.lhs", desc = "Select left part of an object property" },
 						["r:"] = { query = "@property.rhs", desc = "Select right part of an object property" },
 
-						["aa"] = { query = "@parameter.outer", desc = "Select outer part of a parameter/argument" },
-						["ia"] = { query = "@parameter.inner", desc = "Select inner part of a parameter/argument" },
+						["ap"] = { query = "@parameter.outer", desc = "Select outer part of a parameter/argument" },
+						["ip"] = { query = "@parameter.inner", desc = "Select inner part of a parameter/argument" },
 
-						["ai"] = { query = "@conditional.outer", desc = "Select outer part of a conditional" },
-						["ii"] = { query = "@conditional.inner", desc = "Select inner part of a conditional" },
+						["ac"] = { query = "@conditional.outer", desc = "Select outer part of a conditional" },
+						["ic"] = { query = "@conditional.inner", desc = "Select inner part of a conditional" },
 
 						["al"] = { query = "@loop.outer", desc = "Select outer part of a loop" },
 						["il"] = { query = "@loop.inner", desc = "Select inner part of a loop" },
