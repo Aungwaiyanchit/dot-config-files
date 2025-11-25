@@ -1,0 +1,53 @@
+return {
+	{
+		"Saghen/blink.cmp",
+		dependencies = {
+			"L3MON4D3/LuaSnip",
+			"rafamadriz/friendly-snippets",
+			"tpope/vim-dadbod",
+			"kristijanhusak/vim-dadbod-completion",
+			"kristijanhusak/vim-dadbod-ui",
+		},
+		opts = {
+			snippets = { preset = "luasnip" },
+			keymap = {
+				preset = "default",
+				["<Tab>"] = { "select_and_accept", "fallback" },
+				["<C-Space>"] = { "show" },
+				["<C-n>"] = { "select_next", "fallback" },
+				["<C-k>"] = { "select_prev", "fallback" },
+			},
+			completion = {
+				menu = {
+					auto_show = true,
+					draw = {
+						treesitter = { "lsp" },
+						columns = { { "kind_icon", "label", "label_description", gap = 1 }, { "kind" } },
+					},
+				},
+				documentation = { auto_show = true, border = "rounded" },
+			},
+			signature = { enabled = true },
+			fuzzy = { implementation = "lua" },
+			sources = {
+				default = {
+					"lsp",
+					"path",
+					"snippets",
+					"buffer",
+				},
+				per_filetype = {
+					sql = { "snippets", "dadbod", "buffer" },
+				},
+				providers = {
+					dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
+				},
+			},
+		},
+		config = function(_, opts)
+			require("luasnip.loaders.from_vscode").load()
+			require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/snippets" })
+			require("blink.cmp").setup(opts)
+		end,
+	},
+}

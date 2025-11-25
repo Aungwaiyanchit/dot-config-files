@@ -1,0 +1,32 @@
+App\Models\Job::create(['title' => 'CEO', 'salary' => '$100,000']);
+App\Models\Job::create(['title' => 'CEO', 'salary' => '$100,000']);
+App\Models\Job::create(['title' => 'CEO', 'salary' => '$100,000']);
+App\Models\Job::all();
+App\Models\Job::find(4);
+exit
+App\Models\User::factor()->create();
+App\Models\User::factory()->create();
+App\Models\User::factory(100)->create();
+exit
+App\Models\Job::factory(100)->create();
+exit
+App\Models\Job::factory(100)->create();
+App\Models\Job::factory(200)->create();
+exit
+App\Models\Job::factory(10)->create();
+exit
+App\Models\Job::first();
+App\Models\Job::first();
+App\Models\Job::all();
+exit
+App\Models\Job::all();
+App\Models\Job::first();
+$job = App\Models\Job::first();
+echo $job;
+$job->employer();
+$job->employer
+$employer = App\Models\Employer::first();
+echo $employer;
+$employer->jobs
+$employer->jobs[0]
+exit
