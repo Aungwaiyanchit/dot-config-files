@@ -16,7 +16,9 @@ return {
         "pyright",
         "eslint",
         "phpactor",
-        "intelephense"
+        "intelephense",
+        "ruby_lsp",
+        "gopls"
       },
     },
     dependencies = {

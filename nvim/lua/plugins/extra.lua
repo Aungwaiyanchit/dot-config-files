@@ -1,4 +1,3 @@
-local progress = require("noice.lsp.progress")
 return {
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins use
 
@@ -66,5 +65,9 @@ return {
 				{ path = "snacks.nvim", words = { "Snacks" } },
 			},
 		},
+	},
+	{
+		"sphamba/smear-cursor.nvim",
+		opts = {},
 	},
 }

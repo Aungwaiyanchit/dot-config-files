@@ -1,8 +1,7 @@
 after-login-command = []
 
 after-startup-command = [
-'exec-and-forget sketchybar',
-'exec-and-forget borders active_color=0xff4bfa7a inactive_color=0xff494d64 width=5.0'
+'exec-and-forget borders style=round hidpi=off active_color=0xff2986cc inactive_color=0xff494d64 width=5.0'
 ]
 
 start-at-login = true
@@ -65,6 +64,7 @@ alt-shift-equal = 'resize smart +50'
 alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
+alt-4 = 'workspace 4'
 alt-c = 'workspace C'
 alt-m = 'workspace M'
 
@@ -74,6 +74,7 @@ alt-m = 'workspace M'
 alt-shift-1 = 'move-node-to-workspace 1 --focus-follows-window'
 alt-shift-2 = 'move-node-to-workspace 2 --focus-follows-window'
 alt-shift-3 = 'move-node-to-workspace 3 --focus-follows-window'
+alt-shift-4 = 'move-node-to-workspace 4 --focus-follows-window'
 alt-shift-c = 'move-node-to-workspace C --focus-follows-window'
 alt-shift-m = 'move-node-to-workspace M --focus-follows-window'
 
@@ -131,4 +132,10 @@ alt-shift-l = ['join-with right', 'mode main']
 [[on-window-detected]]
   if.app-id = "com.spotify.client"
   run = [ 'move-node-to-workspace M --focus-follows-window']
+
+[[on-window-detected]]
+  if.app-id = "com.mitchellh.ghostty"
+  run = [ 'move-node-to-workspace 1 --focus-follows-window']
+
+
 
