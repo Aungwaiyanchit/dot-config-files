@@ -1,0 +1,166 @@
+2026-08-06T05:45:45.669605Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-08-06T05:45:45.670278Z  INFO herdr::api::server: api server listening path=/Users/adan/.config/herdr/herdr.sock
+2026-08-06T05:45:45.671566Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-06T05:45:45.698612Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T05:45:45.706010Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-06T05:45:45.709214Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=11922
+2026-08-06T05:45:45.709546Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-06T05:45:45.709572Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-06T05:45:45.709625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-06T05:45:45.709666Z  INFO herdr::server::headless: created startup workspace cwd=/Users/adan
+2026-08-06T05:45:45.709829Z  INFO herdr::server::headless: client protocol socket listening path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-06T05:45:45.709882Z  INFO herdr::server::headless: herdr server started api_socket=/Users/adan/.config/herdr/herdr.sock client_socket=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-06T05:45:45.710174Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=11865
+2026-08-06T05:45:45.965927Z  INFO herdr::server::headless: client connected client_id=2 cols=156 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-06T05:45:50.717067Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-06T05:47:41.323650Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-06T05:47:41.331235Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=13684
+2026-08-06T05:47:41.331600Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:47:41.331672Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:47:46.340677Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-06T05:48:03.857256Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-06T05:48:03.866029Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=14327
+2026-08-06T05:48:03.866390Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:08.874190Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-06T05:48:15.039456Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:16.082247Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:16.921857Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:17.487011Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:17.960443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:18.424489Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:18.974195Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:19.474581Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-06T05:48:24.483148Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-06T05:48:39.045850Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-08-06T05:48:39.046200Z  INFO herdr::pane: pane session terminated pane=3 pid=14327 signal=Hangup
+2026-08-06T05:48:39.779977Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-08-06T05:48:39.780225Z  INFO herdr::pane: pane session terminated pane=2 pid=13684 signal=Hangup
+2026-08-06T05:48:40.663617Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-06T05:48:40.663734Z  INFO herdr::pane: pane session terminated pane=1 pid=11922 signal=Hangup
+2026-08-06T05:48:40.663849Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-06T05:48:40.666987Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=15219
+2026-08-06T05:48:40.667175Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=4
+2026-08-06T05:48:40.667182Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-06T05:48:40.667198Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-06T05:48:41.728480Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-08-06T05:48:41.728600Z  INFO herdr::pane: pane session terminated pane=4 pid=15219 signal=Hangup
+2026-08-06T05:48:41.728689Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-06T05:48:41.731290Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=15676
+2026-08-06T05:48:41.731430Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=5
+2026-08-06T05:48:41.731437Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-08-06T05:48:41.731465Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-06T05:48:46.736905Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-06T05:48:54.364468Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-06T05:48:54.368375Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-06T06:15:45.723621Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T06:45:45.796350Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T07:15:45.747956Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T07:45:45.734804Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T08:15:45.643829Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T08:45:45.573775Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T14:13:15.418336Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T14:43:15.410484Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T15:13:15.401043Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T15:48:32.351959Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T16:39:43.365275Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-06T17:09:43.373521Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T05:33:45.666561Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T06:03:45.723234Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T06:33:45.673936Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T07:03:45.686736Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T07:33:45.630803Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T08:04:22.960231Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T08:34:22.883998Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T09:04:22.909695Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T12:48:56.876193Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T13:35:03.232562Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T14:05:03.113177Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T14:35:03.205449Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T15:05:03.260483Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T15:35:03.238361Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T16:05:03.271238Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T16:35:03.199923Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T17:05:03.215083Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-07T17:35:03.175658Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T05:55:32.270906Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T10:54:13.184639Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T11:30:37.507786Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T13:08:36.651376Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T13:25:57.873669Z  INFO herdr::server::headless: client connected client_id=4 cols=156 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-08T13:26:11.594644Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(16072)
+2026-08-08T13:29:57.263755Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-08T13:29:57.269780Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=18605
+2026-08-08T13:29:57.270196Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:30:01.133388Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-08T13:30:06.142175Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:30:12.200155Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:30:14.062108Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-08T13:30:15.950488Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:30:20.960786Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:30:34.462193Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-08T13:30:39.469631Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:33:28.790133Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:33:33.798965Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:34:44.289369Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-08T13:34:49.298581Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:38:36.594906Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T13:45:09.943717Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:45:14.948545Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T13:51:15.421914Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-08-08T13:51:16.878467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-08T13:51:21.887771Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T14:09:05.062826Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T14:39:05.089740Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T15:08:38.781803Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(OpenCode) agent=None pgid=Some(15676)
+2026-08-08T15:08:44.842532Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-08-08T15:08:44.842730Z  INFO herdr::pane: pane session terminated pane=5 pid=15676 signal=Hangup
+2026-08-08T15:08:48.473587Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-08-08T15:08:48.473806Z  INFO herdr::pane: pane session terminated pane=6 pid=18605 signal=Hangup
+2026-08-08T15:08:48.474465Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-08T15:08:48.481479Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=80648
+2026-08-08T15:08:48.482177Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=7
+2026-08-08T15:08:48.482378Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-08-08T15:08:48.482405Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-08-08T15:08:49.553350Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-08-08T15:08:49.553438Z  INFO herdr::pane: pane session terminated pane=7 pid=80648 signal=Hangup
+2026-08-08T15:08:49.553518Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-08T15:08:49.555785Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=81106
+2026-08-08T15:08:49.555975Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=8
+2026-08-08T15:08:49.555987Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-08-08T15:08:49.556018Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-08-08T15:08:50.586361Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-08-08T15:08:50.586449Z  INFO herdr::pane: pane session terminated pane=8 pid=81106 signal=Hangup
+2026-08-08T15:08:50.586529Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-08T15:08:50.588861Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=81563
+2026-08-08T15:08:50.589021Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=9
+2026-08-08T15:08:50.589027Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-08-08T15:08:50.589040Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-08-08T15:08:55.614993Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T15:08:55.865570Z  INFO herdr::server::headless: client resize client_id=4 cols=78 rows=36 cell_width_px=0 cell_height_px=0
+2026-08-08T15:08:59.390783Z  INFO herdr::server::headless: client resize client_id=4 cols=156 rows=36 cell_width_px=0 cell_height_px=0
+2026-08-08T15:09:00.144318Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 0, signal: None }"
+2026-08-08T15:09:00.144458Z  INFO herdr::pane: pane session terminated pane=9 pid=81563 signal=Hangup
+2026-08-08T15:09:00.144574Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=35 cols=130 scrollback_limit_bytes=10000000
+2026-08-08T15:09:00.147179Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=82580
+2026-08-08T15:09:00.147343Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=10
+2026-08-08T15:09:00.147349Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-08-08T15:09:00.147365Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-08T15:09:04.996850Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T15:09:05.165987Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-08T15:09:15.762291Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-08-08T15:09:15.766602Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-08T15:39:04.912488Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T16:09:04.856982Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T16:39:05.022256Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T17:09:05.072279Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-08T17:39:05.211016Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-09T01:32:08.085722Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-09T05:49:27.052117Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-09T06:19:27.050559Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-09T06:33:01.383925Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-09T06:33:01.443224Z  INFO herdr::server::headless: completing server shutdown
+2026-08-09T06:33:01.450456Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/session.json workspaces=1
+2026-08-09T06:33:01.451751Z  INFO herdr::server::headless: headless server exiting
+2026-08-09T06:33:01.458146Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 1, signal: None }"
+2026-08-09T06:33:01.479021Z  INFO herdr::pane: pane session terminated pane=10 pid=82580 signal=Hangup
+2026-08-09T06:33:01.484552Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=11865
