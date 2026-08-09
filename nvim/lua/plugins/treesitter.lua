@@ -1,8 +1,8 @@
 return {
 	{
 		"nvim-treesitter/nvim-treesitter",
-		opts = {
-			ensure_installed = {
+		init = function()
+			local ensureInstalled = {
 				"json",
 				"javascript",
 				"typescript",
@@ -23,16 +23,26 @@ return {
 				"query",
 				"vimdoc",
 				"c",
-        "blade",
-        "cpp"
-			},
+				"blade",
+				"cpp",
+			}
+			local alreadyInstalled = require("nvim-treesitter.config").get_installed()
+			local parsersToInstall = vim.iter(ensureInstalled)
+				:filter(function(parser)
+					return not vim.tbl_contains(alreadyInstalled, parser)
+				end)
+				:totable()
+			require("nvim-treesitter").install(parsersToInstall)
+		end,
+		opts = {
+			indent = { enable = true },
 			highlight = {
 				enable = true,
 				additional_vim_regex_highlighting = false,
 			},
 		},
 		config = function(_, opts)
-			require("nvim-treesitter.configs").setup(opts)
+			require("nvim-treesitter").setup(opts)
 		end,
 	},
 }

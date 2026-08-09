@@ -12,4 +12,3 @@ return {
     keymap.set("n", "<leader>km", fzf.keymaps, { desc = "view all keymaps"})
 	end,
 }
-

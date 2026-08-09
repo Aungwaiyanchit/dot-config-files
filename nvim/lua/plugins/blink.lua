@@ -1,7 +1,6 @@
 return {
 	"saghen/blink.cmp",
 	version = "1.*",
-	build = "cargo build --release",
 	dependencies = {
 		"L3MON4D3/LuaSnip",
 		"rafamadriz/friendly-snippets",
@@ -36,18 +35,13 @@ return {
 				"path",
 				"snippets",
 				"buffer",
-				"laravel",
 			},
 			per_filetype = {
 				sql = { "snippets", "dadbod", "buffer" },
 			},
 			providers = {
 				dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
-				laravel = {
-					name = "laravel",
-					module = "laravel.blink_source",
-				},
-			},
+		},
 		},
 	},
 	config = function(_, opts)

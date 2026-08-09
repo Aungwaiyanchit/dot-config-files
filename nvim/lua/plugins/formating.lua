@@ -22,9 +22,10 @@ return {
 					liquid = { "prettier" },
 					lua = { "stylua" },
 					python = { "black" },
+					cpp = { "clang_format" },
 
 					-- Ruby on Rail
-          eruby = { "erb_format" },
+					eruby = { "erb_format" },
 					ruby = { "rubocop" },
 
 					-- PHP/Laravel

@@ -1,12 +1,5 @@
 return {
 	"folke/snacks.nvim",
-	dependencies = {
-		"echasnovski/mini.icons",
-		opts = {},
-		config = function()
-			require("mini.icons").setup()
-		end,
-	},
 	priority = 1000,
 	lazy = false,
 	---@type snacks.Config
@@ -23,7 +16,7 @@ return {
 					ignored = true,
 					exclude = { "**/.git", "**/.DS_Store" },
 					layout = {
-						preset = "left",
+						preset = "right",
 					},
 					icons = {
 						git = {

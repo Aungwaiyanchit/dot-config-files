@@ -71,4 +71,3 @@ end
 
 vim.api.nvim_create_user_command("ThemeSelectSimple", open_theme_picker, {})
 vim.keymap.set("n", "<leader>ut", open_theme_picker, { desc = "Theme picker (vim.ui.select)" })
-

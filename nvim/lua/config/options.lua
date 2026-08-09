@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 vim.o.winborder = 'rounded'
 vim.o.shellslash = true
 
@@ -40,5 +42,3 @@ opt.swapfile = false
 
 opt.smoothscroll = true
 opt.linebreak = true
-
-

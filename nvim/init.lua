@@ -1,4 +1,6 @@
-require("config")
+require("config.options")
 require("core.lazy")
 require("core.lsp")
+require("config.keymaps")
+require("config.autocmds")
 require("utils.theme-switcher")
