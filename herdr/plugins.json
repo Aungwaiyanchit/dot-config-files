@@ -1,0 +1,255 @@
+[
+  {
+    "plugin_id": "herdr-nvim-nav",
+    "name": "Vim Nav",
+    "version": "0.1.0",
+    "min_herdr_version": "0.7.0",
+    "description": "Ctrl+h/j/k/l across herdr panes and Neovim splits, without a per-key process for detection",
+    "manifest_path": "/Users/adan/.config/herdr/plugins/github/herdr-nvim-nav-37d546a0d32b/herdr-plugin.toml",
+    "plugin_root": "/Users/adan/.config/herdr/plugins/github/herdr-nvim-nav-37d546a0d32b",
+    "enabled": true,
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "build": [
+      {
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "command": [
+          "cc",
+          "-O2",
+          "-o",
+          "herdr-nvim-nav",
+          "herdr-nvim-nav.c"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "down",
+        "title": "Navigate down",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "./herdr-nvim-nav",
+          "down"
+        ]
+      },
+      {
+        "id": "left",
+        "title": "Navigate left",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "./herdr-nvim-nav",
+          "left"
+        ]
+      },
+      {
+        "id": "right",
+        "title": "Navigate right",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "./herdr-nvim-nav",
+          "right"
+        ]
+      },
+      {
+        "id": "up",
+        "title": "Navigate up",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "./herdr-nvim-nav",
+          "up"
+        ]
+      }
+    ],
+    "source": {
+      "kind": "github",
+      "owner": "aimdevlee",
+      "repo": "herdr-nvim-nav",
+      "resolved_commit": "ec047fd6d8d0269d54a34e9405af28d8aad4c8f0",
+      "managed_path": "/Users/adan/.config/herdr/plugins/github/herdr-nvim-nav-37d546a0d32b",
+      "installed_unix_ms": 1786369868121
+    }
+  },
+  {
+    "plugin_id": "herdr-splits",
+    "name": "Herdr Splits",
+    "version": "0.5.2",
+    "min_herdr_version": "0.7.0",
+    "description": "Seamless navigation and resizing between Herdr panes and Neovim splits",
+    "manifest_path": "/Users/adan/.config/herdr/plugins/github/herdr-splits-d880c4924f2b/herdr-plugin.toml",
+    "plugin_root": "/Users/adan/.config/herdr/plugins/github/herdr-splits-d880c4924f2b",
+    "enabled": true,
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "actions": [
+      {
+        "id": "nav-down",
+        "title": "Navigate down (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-nav.sh",
+          "down"
+        ]
+      },
+      {
+        "id": "nav-left",
+        "title": "Navigate left (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-nav.sh",
+          "left"
+        ]
+      },
+      {
+        "id": "nav-right",
+        "title": "Navigate right (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-nav.sh",
+          "right"
+        ]
+      },
+      {
+        "id": "nav-up",
+        "title": "Navigate up (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-nav.sh",
+          "up"
+        ]
+      },
+      {
+        "id": "resize-down",
+        "title": "Resize down (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-resize.sh",
+          "down"
+        ]
+      },
+      {
+        "id": "resize-left",
+        "title": "Resize left (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-resize.sh",
+          "left"
+        ]
+      },
+      {
+        "id": "resize-right",
+        "title": "Resize right (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-resize.sh",
+          "right"
+        ]
+      },
+      {
+        "id": "resize-up",
+        "title": "Resize up (Neovim/Herder)",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "scripts/herdr-resize.sh",
+          "up"
+        ]
+      }
+    ],
+    "source": {
+      "kind": "github",
+      "owner": "lmilojevicc",
+      "repo": "herdr-splits.nvim",
+      "resolved_commit": "c58bfdf01520845583e0033c11c56fc9d21a5424",
+      "managed_path": "/Users/adan/.config/herdr/plugins/github/herdr-splits-d880c4924f2b",
+      "installed_unix_ms": 1786426764884
+    }
+  },
+  {
+    "plugin_id": "zenbu-labs.terminal-browser",
+    "name": "Terminal Browser",
+    "version": "0.1.0",
+    "min_herdr_version": "0.8.0",
+    "description": "Open a real browser split next to your herdr panes",
+    "manifest_path": "/Users/adan/.config/herdr/plugins/github/zenbu-labs.terminal-browser-af24e09053e7/herdr-plugin/herdr-plugin.toml",
+    "plugin_root": "/Users/adan/.config/herdr/plugins/github/zenbu-labs.terminal-browser-af24e09053e7/herdr-plugin",
+    "enabled": true,
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "build": [
+      {
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "command": [
+          "bash",
+          "-c",
+          "set -o pipefail; curl -fsSL https://terminal-browser.sh/install | bash"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "open-split",
+        "title": "Open terminal-browser (right split)",
+        "description": "Split the focused pane and open terminal-browser in it",
+        "contexts": [
+          "global"
+        ],
+        "command": [
+          "bash",
+          "open-split.sh"
+        ]
+      }
+    ],
+    "source": {
+      "kind": "github",
+      "owner": "zenbu-labs",
+      "repo": "terminal-browser",
+      "subdir": "herdr-plugin",
+      "resolved_commit": "b38201abd0e55ec8002811bf473090d8a061ba33",
+      "managed_path": "/Users/adan/.config/herdr/plugins/github/zenbu-labs.terminal-browser-af24e09053e7",
+      "installed_unix_ms": 1786428326590
+    }
+  }
+]

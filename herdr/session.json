@@ -2,34 +2,80 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w7",
+      "id": "wV",
       "custom_name": null,
-      "identity_cwd": "/Users/adan",
+      "identity_cwd": "/Users/adan/projects/mova/frontend",
       "public_pane_numbers": {
-        "10": 1
+        "7": 12,
+        "6": 11,
+        "2": 4,
+        "5": 10
       },
-      "next_public_pane_number": 2,
+      "next_public_pane_number": 13,
       "public_tab_numbers": [
-        1
+        2,
+        6,
+        7
       ],
-      "next_public_tab_number": 2,
+      "next_public_tab_number": 8,
       "tabs": [
         {
-          "custom_name": null,
+          "custom_name": "fronted",
           "layout": {
-            "Pane": 10
+            "Pane": 2
           },
           "panes": {
-            "10": {
-              "cwd": "/Users/adan"
+            "2": {
+              "cwd": "/Users/adan/projects/mova/frontend",
+              "label": "frontend"
             }
           },
           "zoomed": false,
-          "focused": 10,
-          "root_pane": 10
+          "focused": 2,
+          "root_pane": 2
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Vertical",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 5
+              },
+              "second": {
+                "Pane": 6
+              }
+            }
+          },
+          "panes": {
+            "5": {
+              "cwd": "/Users/adan/projects/mova/frontend"
+            },
+            "6": {
+              "cwd": "/Users/adan/projects/mova/backend"
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 7
+          },
+          "panes": {
+            "7": {
+              "cwd": "/Users/adan/projects/mova/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 7,
+          "root_pane": 7
         }
       ],
-      "active_tab": 0
+      "active_tab": 1
     }
   ],
   "active": 0,

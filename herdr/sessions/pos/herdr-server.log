@@ -1,0 +1,279 @@
+2026-08-26T07:40:10.465492Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-08-26T07:40:10.466452Z  INFO herdr::api::server: api server listening path=/Users/adan/.config/herdr/sessions/pos/herdr.sock
+2026-08-26T07:40:10.467770Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-26T07:40:10.509787Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T07:40:10.518079Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-26T07:40:10.522964Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=44646
+2026-08-26T07:40:10.523813Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-26T07:40:10.523970Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-26T07:40:10.524004Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:40:10.524015Z  INFO herdr::server::headless: created startup workspace cwd=/Users/adan/projects/hoc-pos
+2026-08-26T07:40:10.524165Z  INFO herdr::server::headless: client protocol socket listening path=/Users/adan/.config/herdr/sessions/pos/herdr-client.sock
+2026-08-26T07:40:10.524299Z  INFO herdr::server::headless: herdr server started api_socket=/Users/adan/.config/herdr/sessions/pos/herdr.sock client_socket=/Users/adan/.config/herdr/sessions/pos/herdr-client.sock
+2026-08-26T07:40:10.524780Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=44581
+2026-08-26T07:40:10.783602Z  INFO herdr::server::headless: client connected client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44 render_encoding=SemanticFrame
+2026-08-26T07:40:10.945305Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T07:40:11.051594Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.8.2"
+2026-08-26T07:40:11.051632Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.8.2/herdr-macos-aarch64
+2026-08-26T07:40:11.052665Z  INFO herdr::update: auto-update check: 0.8.2 available, waiting for explicit install
+2026-08-26T07:40:15.531003Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:46:24.262997Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-26T07:47:34.136647Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=40 cols=121 scrollback_limit_bytes=10000000
+2026-08-26T07:47:34.146357Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=54031
+2026-08-26T07:47:34.146933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:47:39.159995Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:48:11.669524Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:48:16.681445Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:48:18.811725Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=40 cols=121 scrollback_limit_bytes=10000000
+2026-08-26T07:48:18.820113Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=55668
+2026-08-26T07:48:18.820502Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-08-26T07:48:23.829799Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:49:19.128213Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:49:24.133120Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:55:02.741039Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:55:03.949133Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:55:08.958012Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:55:56.623588Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-08-26T07:56:01.630046Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:56:26.119927Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:56:27.336309Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:56:29.602970Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:56:34.612831Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T07:58:49.827912Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:58:50.594586Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T07:58:51.314852Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T07:58:56.322693Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:00:42.132442Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:00:46.773575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:00:49.665593Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:00:53.065149Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:00:55.848837Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:01:00.864660Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:02:24.573671Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:02:29.580095Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:02:56.224329Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:02:58.031940Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:02:59.073638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:03:00.706541Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:03:05.718093Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:04:12.540399Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:04:17.548119Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:04:58.577441Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:05:03.311409Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:05:08.322796Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:06:24.328080Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:06:29.334468Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:06:44.802857Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:06:49.810442Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:10:10.965415Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T08:10:14.056560Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:10:15.081668Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:10:20.088461Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:11:39.207935Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:11:44.220453Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:15:26.068039Z  INFO herdr::server::headless: client resize client_id=2 cols=76 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:15:26.172591Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:15:35.526583Z  INFO herdr::server::headless: client resize client_id=2 cols=143 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:15:35.631165Z  INFO herdr::server::headless: client resize client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:17:36.428247Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:17:41.439131Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:17:42.611521Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-08-26T08:17:45.962659Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T08:17:45.963419Z  INFO herdr::pane: pane session terminated pane=3 pid=55668 signal=Hangup
+2026-08-26T08:17:50.971242Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:19:57.768283Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:19:59.268002Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:20:00.984301Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:20:03.358689Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:20:08.368306Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:21:13.507519Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:21:18.513761Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:22:27.727853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:22:32.737340Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:22:57.644935Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:23:02.655230Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:23:37.020049Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:23:42.025821Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:25:20.726999Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:25:20.830362Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:25:29.477028Z  INFO herdr::server::headless: client resize client_id=2 cols=142 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:25:29.580965Z  INFO herdr::server::headless: client resize client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T08:25:39.571842Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:25:44.591719Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:26:24.752587Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:26:29.760347Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:29:57.502806Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:30:02.521284Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:30:15.922533Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:30:19.281082Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:30:24.292244Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:33:36.192689Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:33:41.202241Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:33:44.726115Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:33:49.737659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:33:59.423126Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(614)
+2026-08-26T08:36:28.377463Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:36:29.648418Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:36:31.007799Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:36:34.256308Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:36:39.267859Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:37:56.441502Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:38:01.449040Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:38:03.369048Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=40 cols=121 scrollback_limit_bytes=10000000
+2026-08-26T08:38:03.377952Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=3588
+2026-08-26T08:38:03.378449Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T08:38:08.384860Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:40:10.997964Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T08:42:54.103696Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:42:54.895239Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T08:42:59.902688Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:43:08.690485Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:43:10.404485Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:43:15.411259Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:43:34.877637Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(OpenCode) agent=None pgid=Some(44646)
+2026-08-26T08:43:39.410399Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(8799)
+2026-08-26T08:54:21.742417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:54:23.592651Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T08:54:25.868313Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T08:54:30.874009Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T08:55:01.401453Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T08:55:06.404228Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:02:29.360813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:02:34.373462Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:03:18.000833Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:03:23.012657Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:07:13.624252Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:07:15.232451Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:07:20.241308Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:07:58.144409Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:08:03.096927Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:08:08.103917Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:08:13.911512Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:08:18.920507Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:08:45.785201Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:08:48.935520Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:08:53.945456Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:09:23.796475Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:09:28.805794Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:09:33.059808Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:09:38.068280Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:09:40.242884Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:09:45.249219Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:09:57.900961Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:09:59.450952Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:10:04.456716Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:10:10.866039Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T09:10:32.696180Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:10:37.706813Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:10:56.716554Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:11:01.719957Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:11:29.641123Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:11:30.865969Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:11:35.870919Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:12:08.073674Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:12:10.907102Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:12:15.912587Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:12:19.781728Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:12:24.785087Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:12:26.669183Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:12:31.674064Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:12:45.352506Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-26T09:13:55.501046Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:14:00.071804Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:14:05.075367Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:15:06.520846Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:15:11.531512Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:15:30.670686Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:15:33.224842Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:15:38.227719Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:15:48.032884Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-26T09:15:50.387062Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:15:55.395359Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:16:15.028405Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:16:20.038846Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:16:23.994702Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-26T09:16:39.053095Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:16:44.062003Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:16:50.947611Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:16:55.950838Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:17:15.468991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:17:18.052595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:17:23.060007Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:17:26.602347Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:17:29.393882Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:17:30.627282Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:17:35.632096Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:18:36.622066Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:18:41.627972Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:18:43.176075Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:18:48.180836Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:19:00.659006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:19:05.665374Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:19:10.234128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:19:15.242514Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:19:58.444080Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:20:03.453093Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:20:15.092364Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:20:20.100744Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:21:50.880346Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:21:55.890128Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:23:31.861931Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:23:33.832779Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:23:36.486813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:23:41.491002Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:26:06.779919Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:26:08.183911Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:26:13.188530Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:27:18.053573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:27:23.061317Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:27:24.250797Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=40 cols=121 scrollback_limit_bytes=10000000
+2026-08-26T09:27:24.257696Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=46551
+2026-08-26T09:27:24.258058Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-08-26T09:27:29.265004Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:27:32.294978Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:27:33.040670Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-08-26T09:27:38.044809Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:31:14.650315Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:31:15.786982Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:31:18.730204Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:31:23.734565Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:32:01.187625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:32:06.206227Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:32:47.139355Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T09:32:50.427077Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:32:51.243378Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:32:51.960568Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-08-26T09:32:52.877568Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T09:32:57.887600Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:34:00.455045Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T09:34:05.466466Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:40:10.755880Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T09:57:34.553038Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=40 cols=121 scrollback_limit_bytes=10000000
+2026-08-26T09:57:34.561643Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=67614
+2026-08-26T09:57:34.562023Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t6"
+2026-08-26T09:57:38.648972Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(68084)
+2026-08-26T09:57:39.569499Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T09:59:32.435374Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(OpenCode) agent=None pgid=Some(67614)
+2026-08-26T10:03:06.074474Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(71854)
+2026-08-26T10:04:21.245745Z  INFO herdr::server::headless: client resize client_id=2 cols=74 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:04:21.346167Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:10:10.864700Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-26T10:17:23.081041Z  INFO herdr::server::headless: client resize client_id=2 cols=83 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:23.182285Z  INFO herdr::server::headless: client resize client_id=2 cols=146 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:23.287318Z  INFO herdr::server::headless: client resize client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:24.943282Z  INFO herdr::server::headless: client resize client_id=2 cols=89 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:25.046336Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:25.149753Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:27.832750Z  INFO herdr::server::headless: client resize client_id=2 cols=98 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:27.935442Z  INFO herdr::server::headless: client resize client_id=2 cols=146 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:28.038071Z  INFO herdr::server::headless: client resize client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:47.771563Z  INFO herdr::server::headless: client resize client_id=2 cols=82 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:17:47.871867Z  INFO herdr::server::headless: client resize client_id=2 cols=72 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:29:12.325020Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(OpenCode) agent=None pgid=Some(67614)
+2026-08-26T10:29:18.026774Z  INFO herdr::server::headless: client resize client_id=2 cols=142 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:29:18.131805Z  INFO herdr::server::headless: client resize client_id=2 cols=147 rows=41 cell_width_px=20 cell_height_px=44
+2026-08-26T10:29:22.906591Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-08-26T10:29:23.687346Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-26T10:29:28.693348Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/adan/.config/herdr/sessions/pos/session.json workspaces=1
+2026-08-26T10:29:36.310172Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-26T10:29:36.315699Z  INFO herdr::server::headless: client disconnected client_id=2

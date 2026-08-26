@@ -1,0 +1,14 @@
+onboarding = false
+
+[theme]
+name = "nord"
+auto_switch = false
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+[keys]
+prefix="ctrl+s"
+
+[experimental]
+kitty_graphics = true

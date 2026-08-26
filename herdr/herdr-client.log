@@ -6,3 +6,122 @@
 2026-08-08T13:25:57.709714Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
 2026-08-08T13:25:57.873388Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
 2026-08-08T15:09:15.762993Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=15873
+2026-08-10T13:36:48.915507Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=34834
+2026-08-10T13:36:48.915717Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:36:49.136469Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:37:50.160226Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=34834
+2026-08-10T13:37:52.210306Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=37180
+2026-08-10T13:37:52.210367Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:37:52.463349Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:39:54.583042Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=37180
+2026-08-10T13:41:02.586775Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=43311
+2026-08-10T13:41:02.586851Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:41:02.682363Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:41:13.335097Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=43311
+2026-08-10T13:41:15.246946Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=43893
+2026-08-10T13:41:15.247027Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:41:15.382727Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:46:06.449713Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=43893
+2026-08-10T13:46:08.922701Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=48600
+2026-08-10T13:46:08.922763Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:46:09.019006Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:49:07.540292Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=48600
+2026-08-10T13:51:44.960616Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=53895
+2026-08-10T13:51:44.961005Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:51:45.099178Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:53:27.507950Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=53895
+2026-08-10T13:54:32.661275Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=57887
+2026-08-10T13:54:32.661506Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:54:32.784283Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T13:57:10.514470Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=57887
+2026-08-10T13:57:31.022244Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=61960
+2026-08-10T13:57:31.022332Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-10T13:57:31.192623Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-10T14:53:54.585115Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=61960
+2026-08-11T05:32:30.357933Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=99814
+2026-08-11T05:32:30.358120Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-11T05:32:30.588479Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-11T05:34:30.689431Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=99814
+2026-08-11T05:34:49.241306Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=2878
+2026-08-11T05:34:49.241528Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-11T05:34:49.299251Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-11T06:05:21.881905Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=2878
+2026-08-11T06:09:52.639433Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=33184
+2026-08-11T06:09:52.639622Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-11T06:09:52.838652Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-11T06:10:19.595773Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=34039
+2026-08-11T06:10:19.595966Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-11T06:10:19.824232Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-11T09:33:06.093329Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=34039
+2026-08-11T12:46:43.403295Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=53227
+2026-08-11T12:46:43.403487Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-11T12:46:43.456481Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-12T13:44:07.998028Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=53227
+2026-08-14T06:06:59.701991Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=24459
+2026-08-14T06:06:59.702226Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-14T06:06:59.717279Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-14T07:14:37.332144Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=77583
+2026-08-14T07:14:37.332323Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-14T07:14:37.433342Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-14T07:15:37.445455Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=77583
+2026-08-14T07:16:10.876216Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=78555
+2026-08-14T07:16:10.876380Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-14T07:16:11.129570Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-14T13:09:34.776450Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=7060
+2026-08-14T13:09:34.776695Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-14T13:09:34.851375Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-14T13:40:07.718417Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=7060
+2026-08-14T14:00:46.264597Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=46773
+2026-08-14T14:00:46.264880Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-14T14:00:46.457838Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-14T17:05:51.276069Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=46773
+2026-08-15T02:47:55.325231Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=79477
+2026-08-15T02:47:55.325344Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T02:47:55.409052Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T12:48:53.506191Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=38466
+2026-08-15T12:48:53.506387Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T12:48:53.552779Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T12:49:17.710950Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=38466
+2026-08-15T12:49:30.066352Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=39334
+2026-08-15T12:49:30.066490Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T12:49:30.110539Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T12:49:49.127074Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T12:49:49.128560Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T12:49:54.015554Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T12:49:54.015849Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T12:50:10.252173Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T12:50:10.253541Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-15T13:17:51.933963Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=39334
+2026-08-15T14:42:51.836570Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=34960
+2026-08-15T14:42:51.836736Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T14:42:51.886048Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T14:43:22.797370Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=34960
+2026-08-15T15:06:18.608492Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=24645
+2026-08-15T15:06:18.608872Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T15:06:18.690371Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T15:07:12.863383Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=24645
+2026-08-15T15:07:17.643244Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=27599
+2026-08-15T15:07:17.643273Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-15T15:07:17.891405Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-16T08:47:02.869966Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-17T07:49:42.716749Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=27599
+2026-08-21T05:27:34.857849Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=86218
+2026-08-21T05:27:34.858319Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-21T05:27:35.051113Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-21T05:43:19.212366Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=86218
+2026-08-21T06:44:07.305069Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=36161
+2026-08-21T06:44:07.305311Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-21T06:44:07.497301Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-21T07:04:02.594091Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=36161
+2026-08-21T13:11:38.425708Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=93318
+2026-08-21T13:11:38.426381Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-21T13:11:38.487947Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-24T05:45:56.762615Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=93318
+2026-08-24T14:29:29.873796Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=38901
+2026-08-24T14:29:29.874015Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-24T14:29:30.099496Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-25T04:45:54.006522Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=38901
+2026-08-25T11:29:40.107057Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=79883
+2026-08-25T11:29:40.107362Z  INFO herdr::client: connecting to server path=/Users/adan/.config/herdr/herdr-client.sock
+2026-08-25T11:29:40.328421Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-25T12:43:34.136390Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=79883
