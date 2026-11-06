@@ -75,6 +75,14 @@ function M.pretty_path(opts)
 	}, opts or {})
 
 	return function(self)
+		if vim.bo.filetype == "oil" or vim.api.nvim_buf_get_name(0):match("^oil.*://") then
+			local ok, tabline = pcall(require, "config.tabline")
+			if ok then
+				-- Same label as an Oil tab: ~/foo, no icon.
+				return (tabline.oil_label(0):gsub("%%", "%%%%"))
+			end
+		end
+
 		local path = vim.fn.expand("%:p") --[[@as string]]
 
 		if path == "" then

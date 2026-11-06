@@ -7,10 +7,26 @@ return {
 		lualine.setup({
 			options = {
 				theme = "auto",
+				refresh = {
+					events = {
+						"WinEnter",
+						"BufEnter",
+						"BufWritePost",
+						"SessionLoadPost",
+						"FileChangedShellPost",
+						"VimResized",
+						"Filetype",
+						"CursorMoved",
+						"CursorMovedI",
+						"ModeChanged",
+						"RecordingEnter",
+						"RecordingLeave",
+					},
+				},
 			},
 			sections = {
 				lualine_a = { "mode" },
-				lualine_b = { "branch", "diff", "diagnostics" },
+				lualine_b = { "branch" },
 				lualine_c = {
 					lualine_utils.pretty_path({
 						length = 0,
@@ -40,16 +56,6 @@ return {
 							modified = icons.git.modified,
 							removed = icons.git.removed,
 						},
-						source = function()
-							local gitsigns = vim.b.gitsigns_status_dict
-							if gitsigns then
-								return {
-									added = gitsigns.added,
-									modified = gitsigns.changed,
-									removed = gitsigns.removed,
-								}
-							end
-						end,
 					},
 				},
 				lualine_y = {

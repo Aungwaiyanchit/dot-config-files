@@ -64,6 +64,8 @@ vim.api.nvim_create_autocmd("LspAttach", {
 -- Stop phpactor if a previous config already enabled it. Intelephense owns PHP.
 pcall(vim.lsp.enable, "phpactor", false)
 
+local diagnostic_icons = require("utils.icons").diagnostics
+
 vim.diagnostic.config({
 	-- virtual_lines = true,
 	underline = true,
@@ -75,10 +77,10 @@ vim.diagnostic.config({
 	},
 	signs = {
 		text = {
-			[vim.diagnostic.severity.ERROR] = "󰅚",
-			[vim.diagnostic.severity.WARN] = "󰀪",
-			[vim.diagnostic.severity.INFO] = "󰋽",
-			[vim.diagnostic.severity.HINT] = "󰌶",
+			[vim.diagnostic.severity.ERROR] = diagnostic_icons.Error,
+			[vim.diagnostic.severity.WARN] = diagnostic_icons.Warn,
+			[vim.diagnostic.severity.INFO] = diagnostic_icons.Info,
+			[vim.diagnostic.severity.HINT] = diagnostic_icons.Hint,
 		},
 		numhl = {
 			[vim.diagnostic.severity.ERROR] = "ErrorMsg",

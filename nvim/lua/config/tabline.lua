@@ -82,6 +82,8 @@ function M.render()
 	return line
 end
 
+-- Always show the tabline so an Oil directory is visible with a single tab.
+vim.o.showtabline = 2
 vim.o.tabline = "%!v:lua.require('config.tabline').render()"
 
 return M
