@@ -29,14 +29,14 @@ return {
 					["markdown.mdx"] = oxfmtFormatter,
 					lua = { "stylua" },
 					python = { "black" },
-					cpp = { "clang_format" },
+					cpp = { "clang-format" },
 
 					-- Ruby on Rail
 					eruby = { "erb_format" },
 					ruby = { "rubocop" },
 
-					-- PHP/Laravel
-					php = { "pint", "php_cs_fixer" },
+					-- PHP/Laravel. First installed formatter wins; otherwise LSP formats.
+					php = { "pint", "php_cs_fixer", stop_after_first = true },
 					blade = { "blade-formatter" },
 				},
 				formatters = {
@@ -52,15 +52,15 @@ return {
 						return
 					end
 					return {
-						timeout_ms = 500,
-						lsp_fallback = true,
+						timeout_ms = 1000,
+						lsp_format = "fallback",
 					}
 				end,
 			})
 
 			vim.keymap.set({ "n", "v" }, "<leader>mp", function()
 				conform.format({
-					lsp_fallback = true,
+					lsp_format = "fallback",
 					async = false,
 					timeout_ms = 1000,
 				})

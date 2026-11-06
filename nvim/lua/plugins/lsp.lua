@@ -43,13 +43,18 @@ return {
 	{
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
 		opts = {
+			-- Mason package names for the formatters Conform actually runs.
+			-- oxfmt and prettierd stay project-local; the chain falls through to prettier.
 			ensure_installed = {
-				"prettier", -- prettier formatter
-				"stylua", -- lua formatter
-				"black", -- python formatter
-				"pylint",
-				"eslint_d",
-				"oxlint",
+				"prettier",
+				"stylua",
+				"black",
+				"clang-format",
+				"erb-formatter",
+				"rubocop",
+				"pint",
+				"php-cs-fixer",
+				"blade-formatter",
 			},
 		},
 		dependencies = {
