@@ -1,26 +1,42 @@
+-- Hide ts_ls diagnostics on a buffer ESLint already owns, so each warning is reported once.
+local function silence_ts_ls(bufnr)
+	for _, client in ipairs(vim.lsp.get_clients({ bufnr = bufnr, name = "ts_ls" })) do
+		client.server_capabilities.diagnosticProvider = nil
+		local prefix = "nvim.lsp.ts_ls." .. client.id
+		for name, ns in pairs(vim.api.nvim_get_namespaces()) do
+			if name == prefix or vim.startswith(name, prefix .. ".") then
+				vim.diagnostic.enable(false, { bufnr = bufnr, ns_id = ns })
+				vim.diagnostic.reset(ns, bufnr)
+			end
+		end
+		local push_ns = vim.lsp.diagnostic.get_namespace(client.id)
+		vim.diagnostic.enable(false, { bufnr = bufnr, ns_id = push_ns })
+		vim.diagnostic.reset(push_ns, bufnr)
+	end
+end
+
+local function eslint_owns(bufnr)
+	return #vim.lsp.get_clients({ bufnr = bufnr, name = "eslint" }) > 0
+end
+
 vim.api.nvim_create_autocmd("LspAttach", {
 	group = vim.api.nvim_create_augroup("lsp-attach", { clear = true }),
 
 	callback = function(event)
+		local client = vim.lsp.get_client_by_id(event.data.client_id)
+		if not client then
+			return
+		end
 
-    -- Get the client that just attached
-    local client = vim.lsp.get_client_by_id(event.data.client_id)
-    if not client then
-      return
-    end
-
-    -- Decide which LSP does what
-    if client.name == "intelephense" then
-      -- Turn OFF rename + codeAction here → Phpactor will own them
-      client.server_capabilities.renameProvider = false
-      client.server_capabilities.codeActionProvider = false
-    elseif client.name == "phpactor" then
-      -- Optional: disable overlaps that Intelephense already does well
-      client.server_capabilities.signatureHelpProvider = nil
-      client.server_capabilities.documentFormattingProvider = false
-
-      client.handlers["textDocument/publishDiagnostics"] = function() end
-    end
+		if client.name == "eslint" or (client.name == "ts_ls" and eslint_owns(event.buf)) then
+			silence_ts_ls(event.buf)
+			-- A pull may already be in flight. Hide whatever lands in this tick.
+			vim.schedule(function()
+				if vim.api.nvim_buf_is_valid(event.buf) and eslint_owns(event.buf) then
+					silence_ts_ls(event.buf)
+				end
+			end)
+		end
 
 		local map = function(keys, func, desc)
 			vim.keymap.set("n", keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
@@ -44,6 +60,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		map("K", hover, "Show documentation for what is under cursor")
 	end,
 })
+
+-- Stop phpactor if a previous config already enabled it. Intelephense owns PHP.
+pcall(vim.lsp.enable, "phpactor", false)
 
 vim.diagnostic.config({
 	-- virtual_lines = true,

@@ -15,10 +15,13 @@ return {
 				"prismals",
 				"pyright",
 				"eslint",
-				"phpactor",
 				"intelephense",
 				"ruby_lsp",
 				"gopls",
+			},
+			-- Intelephense owns PHP. An already-installed phpactor must not start.
+			automatic_enable = {
+				exclude = { "phpactor" },
 			},
 		},
 		dependencies = {
