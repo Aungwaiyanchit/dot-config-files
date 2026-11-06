@@ -22,6 +22,12 @@ return {
 		view_options = {
 			show_hidden = true,
 		},
+		-- Two sign columns: index status, then working tree. Snacks' statuscolumn
+		-- would draw those signs again, so Oil windows use the plain sign column.
+		win_options = {
+			signcolumn = "yes:2",
+			statuscolumn = "",
+		},
 		float = {
 			padding = 2,
 			-- 0.8 = 80% of total screen width/height so it stays visibly centered

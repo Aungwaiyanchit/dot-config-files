@@ -46,7 +46,6 @@ return {
 	},
 	config = function(_, opts)
 		require("luasnip.loaders.from_vscode").load()
-		require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/snippets" })
 		require("blink.cmp").setup(opts)
 	end,
 }

@@ -1,12 +1,10 @@
 return {
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins use
 	{ "nvim-tree/nvim-web-devicons", opts = {} },
+	{ "MunifTanjim/nui.nvim" },
 	{
-		"MunifTanjim/nui.nvim",
-		{
-			"stevearc/dressing.nvim",
-			event = "VeryLazy",
-		},
+		"stevearc/dressing.nvim",
+		event = "VeryLazy",
 	},
 	{
 		"folke/lazydev.nvim",

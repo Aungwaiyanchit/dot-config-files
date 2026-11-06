@@ -1,69 +1,49 @@
+local theme_file = vim.fn.expand("~/.config/shared-theme/current_theme.txt")
+local active = "tokyonight"
+if vim.fn.filereadable(theme_file) == 1 then
+	local saved = vim.fn.readfile(theme_file)[1]
+	if saved and vim.trim(saved) ~= "" then
+		active = vim.trim(saved)
+	end
+end
+
+local function is_active(name)
+	return active == name or vim.startswith(active, name .. "-")
+end
+
 return {
 	{
 		"sainnhe/gruvbox-material",
-		lazy = false,
-		priority = 1000,
+		lazy = not is_active("gruvbox-material"),
+		priority = is_active("gruvbox-material") and 1000 or nil,
 		config = function()
-			vim.g.gruvbox_material_enable_italic = true
+			require("utils.themes").setup_gruvbox()
 		end,
 	},
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-		priority = 1000,
+		lazy = not is_active("catppuccin"),
+		priority = is_active("catppuccin") and 1000 or nil,
 		config = function()
-			require("catppuccin").setup({
-				custom_highlights = function(colors)
-					return {
-						LineNr = { fg = colors.lavender },
-						CursorLineNr = { fg = colors.green, bold = true }, -- e.g., colors.text, colors.yellow
-					}
-				end,
-				flavour = "macchiato",
-				transparent_background = true,
-				dim_inactive = {
-					enabled = false, -- dims the background color of inactive window
-					shade = "dark",
-					percentage = 0.85, -- percentage of the shade to apply to the inactive window
-				},
-				float = {
-					transparent = true, -- enable transparent floating windows
-					solid = true, -- use solid styling for floating windows, see |winborder|
-				},
-				lsp_styles = {
-					underlines = {
-						errors = { "undercurl" },
-						hints = { "undercurl" },
-						warnings = { "undercurl" },
-						information = { "undercurl" },
-					},
-				},
-				auto_integrations = true,
-			})
+			require("utils.themes").setup_catppuccin()
 		end,
-		opts = {},
 	},
 	{
 		"folke/tokyonight.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			transparent = false,
-			styles = {
-				sidebars = "transparent",
-				floats = "transparent",
-			},
-			on_colors = function(c)
-				-- Because lualine broke stuff with the latest commit
-				c.bg_statusline = c.none
-			end,
-			on_highlights = function(hl, c)
-				hl.LineNr = { fg = "#6ab8ff", bg = "NONE" }
-				hl.CursorLineNr = { fg = c.red, bg = "NONE" }
-				hl.TabLineFill = {
-					bg = c.none,
-				}
-			end,
-		},
+		lazy = not is_active("tokyonight"),
+		priority = is_active("tokyonight") and 1000 or nil,
+		config = function()
+			require("utils.themes").setup_tokyonight()
+		end,
+	},
+	{
+		"craftzdog/solarized-osaka.nvim",
+		name = "solarized-osaka.nvim",
+		lazy = not is_active("solarized-osaka"),
+		priority = is_active("solarized-osaka") and 1000 or nil,
+		config = function()
+			require("utils.themes").setup_solarized()
+		end,
 	},
 }

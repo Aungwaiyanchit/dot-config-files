@@ -5,7 +5,6 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 vim.o.winborder = 'rounded'
-vim.o.shellslash = true
 
 vim.g.snacks_animate = true
 
@@ -28,7 +27,6 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 
 opt.cursorline = true
 
--- turn on termguicolors for tokyonight colorscheme to work
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 
 -- backspace
@@ -41,8 +39,8 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
--- turn off swapfile
+-- turn off swapfile; keep undo history across restarts instead
 opt.swapfile = false
+opt.undofile = true
 
 opt.smoothscroll = true
-opt.linebreak = true
