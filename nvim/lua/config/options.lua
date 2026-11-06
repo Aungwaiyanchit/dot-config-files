@@ -1,5 +1,9 @@
 vim.g.mapleader = " "
 
+-- oil.nvim replaces netrw. Set these before any plugin can claim a directory.
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.o.winborder = 'rounded'
 vim.o.shellslash = true
 

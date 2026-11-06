@@ -1,8 +1,13 @@
 return {
 	{
 		"nvim-treesitter/nvim-treesitter",
-		init = function()
-			local ensureInstalled = {
+		branch = "main",
+		-- The rewrite does not support lazy-loading, and setup() no longer accepts
+		-- highlight/indent. Those are enabled from the FileType autocmd.
+		lazy = false,
+		build = ":TSUpdate",
+		config = function()
+			local ensure_installed = {
 				"json",
 				"javascript",
 				"typescript",
@@ -25,24 +30,18 @@ return {
 				"c",
 				"blade",
 				"cpp",
+				"php",
+				"ruby",
+				"go",
+				"python",
 			}
-			local alreadyInstalled = require("nvim-treesitter.config").get_installed()
-			local parsersToInstall = vim.iter(ensureInstalled)
-				:filter(function(parser)
-					return not vim.tbl_contains(alreadyInstalled, parser)
-				end)
-				:totable()
-			require("nvim-treesitter").install(parsersToInstall)
-		end,
-		opts = {
-			indent = { enable = true },
-			highlight = {
-				enable = true,
-				additional_vim_regex_highlighting = false,
-			},
-		},
-		config = function(_, opts)
-			require("nvim-treesitter").setup(opts)
+			local installed = require("nvim-treesitter.config").get_installed("parsers")
+			local missing = vim.tbl_filter(function(lang)
+				return not vim.tbl_contains(installed, lang)
+			end, ensure_installed)
+			if #missing > 0 then
+				require("nvim-treesitter").install(missing)
+			end
 		end,
 	},
 }

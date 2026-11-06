@@ -1,9 +1,8 @@
 return {
 	"nvim-treesitter/nvim-treesitter-textobjects",
 	branch = "main",
-	init = function()
-		vim.g.no_plugin_maps = true
-	end,
+	-- Do not set vim.g.no_plugin_maps. That disables every runtime filetype map.
+	-- Ruby's am/im maps already yield when these global maps exist.
 	config = function()
 		require("nvim-treesitter-textobjects").setup({
 			select = {
@@ -35,12 +34,6 @@ return {
 		map("i=", "@assignment.inner", "Select inner part of an assignment")
 		map("l=", "@assignment.lhs", "Select left hand side of an assignment")
 		map("r=", "@assignment.rhs", "Select right hand side of an assignment")
-
-		-- works for javascript/typescript files (custom capture in after/queries/ecma/textobjects.scm)
-		map("a:", "@property.outer", "Select outer part of an object property")
-		map("i:", "@property.inner", "Select inner part of an object property")
-		map("l:", "@property.lhs", "Select left part of an object property")
-		map("r:", "@property.rhs", "Select right part of an object property")
 
 		map("ap", "@parameter.outer", "Select outer part of a parameter/argument")
 		map("ip", "@parameter.inner", "Select inner part of a parameter/argument")
