@@ -15,16 +15,20 @@ vim.api.nvim_create_autocmd("FileType", {
 			return
 		end
 		local filetype = vim.bo[bufnr].filetype
+		if filetype == "" or filetype == "oil" then
+			return
+		end
 
-		if filetype == "oil" then
-			return
-		end
-		local filetype = vim.bo[bufnr].filetype
+		-- language.add returns nil (it does not throw) when no parser exists.
+		-- pcall alone is not a valid check: it is true whenever add does not error.
 		local lang = vim.treesitter.language.get_lang(filetype) or filetype
-		if lang == "" or not pcall(vim.treesitter.language.add, lang) then
+		local ok, loaded = pcall(vim.treesitter.language.add, lang)
+		if not ok or not loaded then
 			return
 		end
-		vim.treesitter.start(bufnr, lang)
+		if not pcall(vim.treesitter.start, bufnr, lang) then
+			return
+		end
 		vim.bo[bufnr].indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
 	end,
 })

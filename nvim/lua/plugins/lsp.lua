@@ -48,11 +48,9 @@ return {
 			ensure_installed = {
 				"prettier",
 				"stylua",
-				"black",
 				"clang-format",
 				"erb-formatter",
 				"rubocop",
-				"pint",
 				"php-cs-fixer",
 				"blade-formatter",
 			},
